@@ -13,6 +13,7 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <Layout></Layout>,
+    errorElement: <div>Oops! Something went wrong.</div>,
     children: [
       {
         path: "/",
